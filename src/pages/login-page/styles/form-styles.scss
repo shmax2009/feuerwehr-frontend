@@ -1,0 +1,64 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  height: 47.22%;
+  width: 25.06%;
+
+
+  background-color: white;
+
+  border-radius: calc(0.7 * (1vh + 1vw));
+
+  margin-top: 23vh;
+  margin-left: 10vh;
+}
+
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6vh;
+  color: #000000;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 1.5vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6vh;
+  text-align: center;
+}
+
+
+.field-shape {
+  width: 62%;
+  height: 13.2%;
+  margin-bottom: 13px;
+}
+
+.submit {
+  width: 63%;
+  height: 13.2%;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  background: #BC1716;
+
+  border: 1px solid #BC1716;
+  border-radius: 5px;
+  outline: none;
+
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
