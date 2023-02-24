@@ -41,24 +41,37 @@ h4 {
 .field-shape {
   width: 62%;
   height: 13.2%;
-  margin-bottom: 13px;
+  margin-bottom: 1.3vh;
 }
 
 .submit {
   width: 63%;
   height: 13.2%;
-
+  cursor: pointer;
   margin-right: auto;
   margin-left: auto;
 
   background: #BC1716;
 
-  border: 1px solid #BC1716;
-  border-radius: 5px;
+  border: 2px solid #BC1716;
+  border-radius: calc(0.25 * (1vh + 1vw));
   outline: none;
 
   color: white;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.6vh;
+
+  transition: transform 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:active {
+    background: #891a19;
+    border: 1px solid #891a19;
+    transform: scale(0.99);
+  }
+
 }

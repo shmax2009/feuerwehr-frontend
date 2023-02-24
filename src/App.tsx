@@ -6,7 +6,10 @@ const App = () => {
     return (
         <Routes>
             <Route path="/anmelden" element={<LoginPage/>}></Route>
-            <Route path='*' element={<Navigate to="/anmelden"/>}/>
+            <Route path='*' element={
+                // <NotFound/>
+                <Navigate to="/anmelden"/>
+            }/>
         </Routes>
     )
         ;
