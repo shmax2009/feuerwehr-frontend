@@ -1,5 +1,5 @@
 export enum DeviceType {
-    Smartphone,
+    Mobile,
     Desktop
 }
 
@@ -14,9 +14,8 @@ export class Device {
 
     static getDeviceType(): DeviceType {
         const dimensions = this.getWindowDimensions();
-        console.log(dimensions);
         if (dimensions.height > dimensions.width)
-            return DeviceType.Smartphone;
+            return DeviceType.Mobile;
         else
             return DeviceType.Desktop;
     }

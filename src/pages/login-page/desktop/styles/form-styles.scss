@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-  height: 47.22%;
+  height: 43.22%;
   width: 25.06%;
 
 
@@ -41,7 +41,7 @@ h4 {
 .field-shape {
   width: 62%;
   height: 13.2%;
-  margin-bottom: 1.3vh;
+  margin-bottom: 2vh;
 }
 
 .submit {
@@ -74,4 +74,11 @@ h4 {
     transform: scale(0.99);
   }
 
+}
+
+
+.error-message {
+  font-size: 1vh;
+  margin-left: auto;
+  margin-right: auto;
 }

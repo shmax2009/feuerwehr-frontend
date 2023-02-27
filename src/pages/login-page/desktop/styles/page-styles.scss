@@ -14,6 +14,7 @@
 
 .second-header {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #BC1716;
 }
@@ -21,7 +22,7 @@
 main {
   display: flex;
 
-  height: 59.76vh;
+  height: 78.2vh;
   width: 100%;
 
   background: rgba(53, 51, 51, 1) url(../resources/login-background.png) no-repeat;
@@ -53,4 +54,14 @@ h1 {
   font-weight: 400;
   font-size: min(5vh, 5vw);
   color: #FFFFFF;
+}
+
+.logo {
+  display: block;
+  position: fixed;
+  height: 14.16vh;
+
+  margin-left: calc(50vw - 14.15vh * (145 / 119) / 2);
+  margin-top: 18vh;
+
 }

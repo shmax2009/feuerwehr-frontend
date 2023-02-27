@@ -2,9 +2,11 @@ import React from 'react';
 import "./styles/page-styles.scss"
 import LoginForm from "./login-form";
 
+
 const LoginPageDesktop = () => {
     return (
         <div className="page">
+            <img className="logo" src={require("./resources/fire-department-logo.png")} alt="logo"/>
             <header className="first-header">
                 <h2>UM EINEN NOTFALL ZU MELDEN, WÄHLEN SIE 1-1-2</h2>
             </header>
